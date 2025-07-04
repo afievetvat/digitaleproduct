@@ -1,0 +1,21 @@
+// src/app/page.tsx
+import React from "react";
+
+export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white flex flex-col items-center justify-center p-6">
+      <h1 className="text-5xl font-bold mb-6 text-center">
+        Libère ton potentiel créatif avec l'IA
+      </h1>
+      <p className="text-xl max-w-xl text-center mb-10">
+        Découvre notre pack complet avec chatbot IA, formation vidéo et contenus exclusifs pour booster ta création digitale.
+      </p>
+      <a
+        href="/packs"
+        className="bg-white text-indigo-700 font-semibold px-8 py-4 rounded-md shadow-md hover:bg-gray-200 transition"
+      >
+        Voir le pack
+      </a>
+    </main>
+  );
+}
